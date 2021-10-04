@@ -1,6 +1,6 @@
 .section {
     display: flex;
-    padding: 20vh;
+    padding: 1.5rem;
 }
 
 .section.section-no-flex {
