@@ -1,6 +1,8 @@
 .section {
     display: flex;
     padding: 1.5rem;
+    padding-right: 5vh;
+    padding-left: 5vh;
 }
 
 .section.section-no-flex {
