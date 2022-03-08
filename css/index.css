@@ -27,10 +27,28 @@
 
 .section .section-photo-r {
     margin-left: auto;
+    position: relative;
 }
 
 .section .section-photo-l {
     margin-right: auto;
+    position: relative;
+}
+
+.section .section-photo-r img {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%)
+}
+
+.section .section-photo-l img {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%)
 }
 
 .bg-theme {
